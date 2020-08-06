@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CF075F5824DC585B00915CCA /* HomeModuleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CF075F5624DC585B00915CCA /* HomeModuleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF075F5F24DC58BF00915CCA /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF075F5E24DC58BE00915CCA /* HomeModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF075F5324DC585B00915CCA /* HomeModuleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeModuleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF075F5624DC585B00915CCA /* HomeModuleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModuleFramework.h; sourceTree = "<group>"; };
 		CF075F5724DC585B00915CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF075F5E24DC58BE00915CCA /* HomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				CF075F5624DC585B00915CCA /* HomeModuleFramework.h */,
 				CF075F5724DC585B00915CCA /* Info.plist */,
+				CF075F5E24DC58BE00915CCA /* HomeModule.swift */,
 			);
 			path = HomeModuleFramework;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					CF075F5224DC585B00915CCA = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF075F5F24DC58BF00915CCA /* HomeModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,8 @@
 		CF075F5C24DC585B00915CCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6GCBA5QMM4;
@@ -268,6 +275,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HomeModuleFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,14 +284,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.city.claropay.hitss.camilo.HomeModuleFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CF075F5D24DC585B00915CCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6GCBA5QMM4;
@@ -292,6 +304,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HomeModuleFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,8 +313,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.city.claropay.hitss.camilo.HomeModuleFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

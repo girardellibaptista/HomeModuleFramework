@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0134F7DC-9B9B-468E-80C7-4D232F983165</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0134F7DC-9B9B-468E-80C7-4D232F983165.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomeModuleFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomeModuleFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomeModuleFramework</string>
+			<key>timeStartedRecording</key>
+			<real>618429247.37586296</real>
+			<key>timeStoppedRecording</key>
+			<real>618429252.11333895</real>
+			<key>title</key>
+			<string>Build HomeModuleFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>0134F7DC-9B9B-468E-80C7-4D232F983165</string>
+		</dict>
+		<key>9663BC94-5526-463C-8233-00CEC5D343B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9663BC94-5526-463C-8233-00CEC5D343B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomeModuleFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomeModuleFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomeModuleFramework</string>
+			<key>timeStartedRecording</key>
+			<real>618428473.98847699</real>
+			<key>timeStoppedRecording</key>
+			<real>618428476.18204904</real>
+			<key>title</key>
+			<string>Build HomeModuleFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>9663BC94-5526-463C-8233-00CEC5D343B3</string>
+		</dict>
+		<key>EF521232-B68A-4556-94C7-DC221E82FCCE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EF521232-B68A-4556-94C7-DC221E82FCCE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomeModuleFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomeModuleFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomeModuleFramework</string>
+			<key>timeStartedRecording</key>
+			<real>618428490.61956096</real>
+			<key>timeStoppedRecording</key>
+			<real>618428499.81791902</real>
+			<key>title</key>
+			<string>Build HomeModuleFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>EF521232-B68A-4556-94C7-DC221E82FCCE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
