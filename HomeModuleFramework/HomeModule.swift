@@ -14,7 +14,7 @@ public class HomeModule {
     }
     
     public func goToHome() -> String {
-        return "Brazil"
+        return "Mexico"
     }
 }
 
